@@ -28,7 +28,7 @@ const Footer = () => {
     }
 
     return (
-        <div className="w-full min-h-screen bg-[#EAF0E4] px-10 lg:px-24 py-24 flex flex-col lg:flex-row justify-center gap-20">
+        <div className="w-full min-h-screen bg-[#EAF0E4] px-10 lg:px-40 py-24 flex flex-col lg:flex-row justify-center gap-20">
             <div className="lg:w-6/12">
                 <Image src={Logo} alt="logo" quality={100} className="w-[200px]" />
                 <p className="font-light text-xl mt-5">

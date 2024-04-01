@@ -5,6 +5,7 @@ import Lenis from "@studio-freight/lenis";
 import { useScroll } from "framer-motion";
 import { useEffect } from "react";
 import Main from "./components/Main";
+import Text from "./components/AboutText";
 
 const Vasara = () => {
     const {scrollYProgress} = useScroll()
@@ -22,6 +23,7 @@ const Vasara = () => {
         <main className="min-h-screen">
             <Navbar progress={scrollYProgress} />
             <Main />
+            <Text />
             <Footer />
         </main>
     );
