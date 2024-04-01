@@ -21,7 +21,7 @@ const Navbar = ({progress} : NavbarProps) => {
                     </div>
                 </Link>
                 <div className="hidden lg:block">
-                    <DropdownMenu className="hidden lg:block">
+                    <DropdownMenu>
                         <DropdownMenuTrigger className='text-lg font-light'>Our Raahs</DropdownMenuTrigger>
                         <DropdownMenuContent className="z-[9999] mt-5">
                             <Link href={'/vasara'}>
