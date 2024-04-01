@@ -12,7 +12,7 @@ const Home = () => {
     const {scrollYProgress} = useScroll()
     return (
         <main>
-            <Navbar progress={scrollYProgress} />
+            <Navbar progress={scrollYProgress} buttonColor="#CCE4B4" />
             <Main />
             <Members data={Team} category="Founders" />
             <Members data={Advisors} category="Advisors" />

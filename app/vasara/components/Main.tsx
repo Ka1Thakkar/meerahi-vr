@@ -12,7 +12,7 @@ const Main = () => {
                 <p className="lg:text-4xl text-2xl font-extralight text-center lg:text-left">
                     Companion for <span className="text-[#FFA65B] font-normal">inner balance</span>
                 </p>
-                <div role='button' className='mt-7 py-2 px-5 lg:bg-transparent lg:hover:bg-[#FFA65B] lg:hover:rounded-full ease-in-out transition-all duration-150 delay-0 lg:border-4 bg-[#FFA65B] lg:border-[#FFA65B] w-fit rounded-xl font-medium'>
+                <div role='button' onClick={() => {document.getElementById('vasaraText')?.scrollIntoView({behavior : 'smooth'})}} className='mt-7 py-2 px-5 lg:bg-transparent lg:hover:bg-[#FFA65B] lg:hover:rounded-full ease-in-out transition-all duration-150 delay-0 lg:border-4 bg-[#FFA65B] lg:border-[#FFA65B] w-fit rounded-xl font-medium'>
                     More Info
                 </div>
             </div>

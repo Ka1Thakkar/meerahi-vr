@@ -6,6 +6,7 @@ import Link from "next/link";
 import { BsClipboard2, BsClipboard2Check, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { Clipboard, ClipboardCheck } from "lucide-react";
+import Form from "./Form";
 
 const Footer = () => {
     const [isNumCopied, setIsNumCopied] = useState(false)
@@ -28,11 +29,11 @@ const Footer = () => {
     }
 
     return (
-        <div className="w-full min-h-screen bg-[#EAF0E4] px-10 lg:px-40 py-24 flex flex-col lg:flex-row justify-center gap-20">
+        <div className="w-full h-fit bg-[#EAF0E4] px-10 lg:px-40 py-24 flex flex-col lg:flex-row justify-center gap-20">
             <div className="lg:w-6/12">
                 <Image src={Logo} alt="logo" quality={100} className="w-[200px]" />
                 <p className="font-light text-xl mt-5">
-                    Our mission is to revolutionize mental health industry by improving effectiveness of traditional treatments, covering issues ranging from mild cravings to disorders like ADHD. Also providing immersive simulations for soft skill development, safety training, employee well-being to empower organizations.
+                    Our mission is to revolutionize mental health industry by improving effectiveness of traditional treatments, covering issues ranging from mild cravings to disorders like ADHD. Also providing immersive simulations for soft skill development, safety training, and employee well-being to empower organizations.
                 </p>
                 <div className="flex mt-10 gap-7 text-[#686868] text-3xl items-center">
                     <Link href="https://www.instagram.com/meerahi_vr?igsh=cDk1YXJ6NGVhNjgw" target="_blank">
@@ -64,7 +65,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-1/2"></div>
+            <div className="lg:w-1/2">
+                <Form api={'mwkgrajn'} />
+            </div>
         </div>
     );
 }

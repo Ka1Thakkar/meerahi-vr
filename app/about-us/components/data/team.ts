@@ -2,6 +2,7 @@ import Meghal from '@/public/Founders/Meghal.png'
 import Harshith from '@/public/Founders/harshith.png'
 import Vishwam from '@/public/Founders/Vishwam.png'
 import Bhagat from '@/public/Founders/Bhagat.png'
+import Mihika from '@/public/Founders/Mihika.png'
 
 const Team = [
     {
@@ -20,7 +21,7 @@ const Team = [
         name : 'Mihika Deshpande',
         position : 'Co-Founder',
         Linkedin : 'https://www.linkedin.com/in/mihika-deshpande-829481226/',
-        image : Vishwam
+        image : Mihika
     },
     {
         name : 'Harshith Mendiratta',

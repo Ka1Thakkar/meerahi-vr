@@ -24,7 +24,7 @@ export default function Home() {
   })
   return (
     <main className="">
-      <Navbar progress={scrollYProgress} />
+      <Navbar progress={scrollYProgress} buttonColor="#CCE4B4" />
       <Main />
       <Backing />
       <Experience />

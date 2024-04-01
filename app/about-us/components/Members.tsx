@@ -16,7 +16,7 @@ const Members = ({data, category} : MembersProps) => {
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-20 gap-x-10 gap-y-10">
                 {data.map((member, id) => {
                     return (
-                        <div className="rounded-3xl h-fit">
+                        <div key={id} className="rounded-3xl h-fit">
                             <Image src={member?.image} alt={member?.name} quality={100} className="rounded-3xl"/>
                             <p className="text-3xl mt-2">{member?.name}</p>
                             <p className="font-extralight text-xl mb-5">{member?.position}</p>

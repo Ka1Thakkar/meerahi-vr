@@ -94,31 +94,31 @@ const timelineEvents = [
     {
         date : 'December, 2023',
         event : 'Idea of Meerahi born.',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : "A spark flickered in the crisp December air at BITS Pilani – a shared breath of possibility, a whisper of an idea. Meerahi, a name that resonated with the quiet strength within, became our guiding light. We knew then, VR would be the bridge to calmer waters, a way to navigate the complexities of mental well-being."
     },
     {
         date : 'January, 2024',
         event : 'Started reaching out to experts, conducting market analysis and working on prototype.',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : "January unfolded like a blooming flower, each day brimming with knowledge. We devoured research, poured our hearts into crafting the first prototype – a seed taking root in fertile ground. February became a whirlwind of progress. Our alpha test bloomed with success, and the Hult Prize at BITS Pilani, a sweet fruit borne from our dedication."
     },
     {
         date : 'February, 2024',
         event : 'Started alpha testing of our proof of concept and basic prototype.',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : "Spring whispered its arrival, and with it, a yearning to share Meerahi's promise with the world. Launching our website in March felt like a deep, cleansing breath – a moment of calm confidence, unveiling the world we were building."
     },
     {
         date : '28 February, 2024',
         event : 'Won HULT PRIZE BITS Pilani',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : ""
     },
     {
         date : 'March, 2024',
         event : 'Take our idea to the public and launch our website',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : "Spring whispered its arrival, and with it, a yearning to share Meerahi's promise with the world. Launching our website in March felt like a deep, cleansing breath – a moment of calm confidence, unveiling the world we were building."
     },
     {
         date : 'April 2024',
         event : 'Expected roll out of our first product- Vasara',
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+        description : "And then came April, a vibrant tapestry woven with possibilities. The release of Vasara, our first step on this meaningful journey, marked a new dawn. From that December spark to the hope-filled horizon of April, Meerahi's story is one of purpose, milestones, and a collective belief in the incredible path ahead. Here's to the calming embrace of a future filled with well-being!"
     },
 ]

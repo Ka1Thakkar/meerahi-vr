@@ -6,6 +6,8 @@ import { useScroll } from "framer-motion";
 import { useEffect } from "react";
 import Main from "./components/Main";
 import Text from "./components/AboutText";
+import Statistics from "@/components/Statistics";
+import stats from '@/app/vasara/components/stats'
 
 const Vasara = () => {
     const {scrollYProgress} = useScroll()
@@ -21,9 +23,10 @@ const Vasara = () => {
       })
     return (
         <main className="min-h-screen">
-            <Navbar progress={scrollYProgress} />
+            <Navbar progress={scrollYProgress} buttonColor="#FFA65B" />
             <Main />
             <Text />
+            <Statistics data={stats} bgColor="#F7E0BD" barColor='#EF8D43' />
             <Footer />
         </main>
     );

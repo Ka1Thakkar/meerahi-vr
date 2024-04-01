@@ -4,7 +4,7 @@ import Riya from '@/public/Advisors/Riya.png'
 const Advisors = [
     {
         name : 'Meher Malviya',
-        position : 'Partner at Boston Consulting Group, Specialising in Entrepreneurship and Startup Culture',
+        position : 'Partner at Boston Consulting Group',
         Linkedin : 'https://www.linkedin.com/in/meher-malviya-45a948301',
         image : Meher,
     },
