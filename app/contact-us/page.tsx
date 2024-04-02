@@ -32,11 +32,13 @@ const Footer = () => {
     }
 
     return (
-        <main>
+        <main className="w-full min-h-screen px-10 lg:px-40 py-24 flex flex-col  justify-center">
             <Navbar progress={scrollYProgress} buttonColor="#CCE4B4" />
-            <div className="w-full h-fit px-10 lg:px-40 py-24 flex flex-col lg:flex-row justify-center gap-20">
+            <h1 className="text-8xl font-semibold mb-10">
+                Get in Touch                
+            </h1>
+            <div className=" flex flex-col lg:flex-row justify-center gap-20">
                 <div className="lg:w-6/12">
-                    <Image src={Logo} alt="logo" quality={100} className="w-[200px]" />
                     <p className="font-light text-xl mt-5">
                         Our mission is to revolutionize mental health industry by improving effectiveness of traditional treatments, covering issues ranging from mild cravings to disorders like ADHD. Also providing immersive simulations for soft skill development, safety training, and employee well-being to empower organizations.
                     </p>

@@ -8,6 +8,7 @@ import Main from "./components/Main";
 import Text from "./components/AboutText";
 import Statistics from "@/components/Statistics";
 import stats from '@/app/vasara/components/stats'
+import Journey from "./components/Journey";
 
 const Vasara = () => {
     const {scrollYProgress} = useScroll()
@@ -27,6 +28,7 @@ const Vasara = () => {
             <Main />
             <Text />
             <Statistics data={stats} bgColor="#F7E0BD" barColor='#EF8D43' />
+            <Journey />
             <Footer />
         </main>
     );

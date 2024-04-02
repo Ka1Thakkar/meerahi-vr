@@ -32,9 +32,9 @@ const Home = () => {
     }
 
     return (
-        <main className="w-full h-fit px-10 lg:px-40 py-24">
+        <main className="w-full min-h-screen px-10 lg:px-40 py-24 flex flex-col justify-center">
             <Navbar progress={scrollYProgress} buttonColor="#CCE4B4" />
-            <h1 className="text-7xl font-semibold mb-20">Ready to embark on the way to better mental health?</h1>
+            <h1 className="text-7xl font-semibold mb-10">Ready to embark on the way to better mental health?</h1>
             <div className="flex flex-col lg:flex-row justify-center gap-20">
                 <div className="lg:w-6/12">
                     <p className="font-light text-xl mt-5">

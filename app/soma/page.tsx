@@ -7,6 +7,7 @@ import stats from "./components/data.js";
 import Footer from "@/components/Footer";
 import Main from "./components/Main";
 import Text from "@/app/soma/components/AboutText";
+import Journey from "./components/Journey";
 
 const Home = () => {
     const {scrollYProgress} = useScroll()
@@ -16,6 +17,7 @@ const Home = () => {
             <Main />
             <Text />
             <Statistics data={stats} bgColor="#A0C7CA" barColor="#455A64" />
+            <Journey />
             <Footer />
         </main>
     );

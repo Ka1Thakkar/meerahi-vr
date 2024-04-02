@@ -94,17 +94,17 @@ const timelineEvents = [
     {
         date : 'December, 2023',
         event : 'Idea of Meerahi born.',
-        description : "A spark flickered in the crisp December air at BITS Pilani – a shared breath of possibility, a whisper of an idea. Meerahi, a name that resonated with the quiet strength within, became our guiding light. We knew then, VR would be the bridge to calmer waters, a way to navigate the complexities of mental well-being."
+        description : "From a shared dream of mental balance for all, Meerahi bloomed, offering VR tools for a calmer tomorrow."
     },
     {
         date : 'January, 2024',
         event : 'Started reaching out to experts, conducting market analysis and working on prototype.',
-        description : "January unfolded like a blooming flower, each day brimming with knowledge. We devoured research, poured our hearts into crafting the first prototype – a seed taking root in fertile ground. February became a whirlwind of progress. Our alpha test bloomed with success, and the Hult Prize at BITS Pilani, a sweet fruit borne from our dedication."
+        description : "January unfolded like a blooming flower, each day brimming with knowledge. We devoured research, poured our hearts into crafting the first prototype – a seed taking root in fertile ground. "
     },
     {
         date : 'February, 2024',
         event : 'Started alpha testing of our proof of concept and basic prototype.',
-        description : "Spring whispered its arrival, and with it, a yearning to share Meerahi's promise with the world. Launching our website in March felt like a deep, cleansing breath – a moment of calm confidence, unveiling the world we were building."
+        description : "February became a whirlwind of progress. Our alpha test bloomed with success, and the Hult Prize at BITS Pilani, a sweet fruit borne from our dedication."
     },
     {
         date : '28 February, 2024',
