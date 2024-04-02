@@ -18,7 +18,7 @@ const Statistics = ({bgColor, data, barColor} : StatisticsProps) => {
                     {data.map((stat, id) => {
                         return (
                             <div key={id} className=' flex flex-col gap-10 items-center justify-center'>
-                                <div className='w-4/12 flex flex-col items-center justify-center'>
+                                {/* <div className='w-4/12 flex flex-col items-center justify-center'>
                                     {stat.value !== 0 && (<Donut 
                                         speed={1} 
                                         width={5} 
@@ -27,7 +27,7 @@ const Statistics = ({bgColor, data, barColor} : StatisticsProps) => {
                                                 {value: (100 - stat.value), color: bgColor},
                                                 {value: stat.value + 1, color: barColor},
                                     ]} />)}
-                                </div>
+                                </div> */}
                                 <div className='flex flex-col items-center justify-center gap-5'>
                                     <p className='lg:text-5xl font-semibold text-3xl'>
                                         {stat.valueInString}
