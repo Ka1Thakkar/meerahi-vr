@@ -9,7 +9,7 @@ interface MembersProps {
 
 const Members = ({data, category} : MembersProps) => {
     return (
-        <div className="lg:px-40 px-10 py-24 min-h-screen">
+        <div className="2xl:px-40 sm:px-20 px-10 py-24 min-h-screen">
             <h1 className="lg:text-8xl text-7xl font-semibold">
                 {category}
             </h1>

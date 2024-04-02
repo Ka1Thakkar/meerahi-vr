@@ -21,7 +21,7 @@ const Main = () => {
         requestAnimationFrame(raf)
       })
     return (
-        <div className="min-h-screen lg:p-40 py-24">
+        <div className="min-h-screen 2xl:px-40 py-24">
             <div className=" flex items-center justify-center">
                 <div className=" flex flex-col lg:flex-row gap-20">
                     <div className="lg:w-7/12 px-10">
@@ -32,7 +32,7 @@ const Main = () => {
                         We Hear You. We've Been There.
                         </h2>
                         <p className="font-extralight text-lg lg:text-xl mt-10">
-                        We all know the feeling. Exams got you down? Relationships stressing you out?  Just trying to figure out who you are can be a battle.  Mental health challenges are real. 
+                        We all know the feeling. Exams got you down? Relationships stressing you out?  Just trying to figure out who you are, can be a battle.  Mental health challenges are real. 
                         <br />
                         <br/>
                         Here's the truth: millions in India face these same struggles. But getting quality help can feel impossible. Stigma and cost create huge barriers. 

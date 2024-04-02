@@ -12,13 +12,13 @@ const subheadingFont = Poppins({subsets: ['latin'], weight:['100','200','300','5
 const Experience = () => {
     return (
         <section className="py-24 text-black">
-            <div className="flex gap-2 items-center px-10 lg:px-40">
+            <div className="flex gap-2 items-center px-10 sm:px-20 2xl:px-40">
                     <p className="text-xl">
                         Stay <span className=" text-[#5BB483] font-semibold">Tuned</span>
                     </p>
                     {/* <div className="w-[5%] h-[2px] bg-[#5BB483] rounded-full"></div> */}
                 </div>
-            <div className='pt-2 px-10 lg:px-40'>
+            <div className='pt-2 px-10 sm:px-20 2xl:px-40'>
                 <h1 className='xl:text-7xl text-4xl font-semibold'>
                     The Timeline for Upcoming Initiaves
                 </h1>
@@ -38,7 +38,7 @@ const Timeline = () => {
     return (
         <div className={" relative w-full min-h-screen text-black"}>
             <div style={{left : `calc(50vw - 2.5px)`}} className="absolute min-h-[90%] w-[5px] bg-[#5DA399]/10 top-[5%] rounded-full hidden lg:flex"></div>
-            <div className="py-32 flex flex-col gap-y-20 px-10 lg:px-20">
+            <div className="py-32 flex flex-col gap-y-20 px-10 sm:px-20 2xl:px-40">
                 {timelineEvents.map((event, i) => {
                     return (
                         <div className="w-full h-fit" key={i}>
@@ -108,7 +108,7 @@ const timelineEvents = [
     },
     {
         date : '28 February, 2024',
-        event : 'Won HULT PRIZE BITS Pilani',
+        event : 'Won HULT PRIZE Regionals',
         description : ""
     },
     {

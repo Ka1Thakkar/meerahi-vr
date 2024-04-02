@@ -16,7 +16,7 @@ const Main = () => {
         }
     }
     return (
-        <div className='flex flex-col lg:flex-row justify-center items-center min-h-screen gap-20 py-24 lg:py-0 lg:px-24 px-10'>
+        <div className='flex flex-col lg:flex-row justify-center items-center min-h-screen gap-20 py-24 lg:py-0 2xl:px-40 sm:px-20 px-10'>
             <div className='lg:w-5/12 h-fit'>
                 <Image src={Illustration} alt="Illustration" quality={100} className='w-fit h-fit object-contain' />
             </div>

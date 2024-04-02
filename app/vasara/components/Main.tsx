@@ -11,7 +11,7 @@ const Main = () => {
     
     })
     return (
-        <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:gap-20 px-10 lg:px-40">
+        <div className="min-h-screen flex flex-col lg:flex-row justify-center items-center lg:gap-20 px-10 sm:px-20 2xl:px-40">
             <Image src={Illustration} alt="illustration" quality={100} className="w-full lg:w-5/12" />
             <div className="flex flex-col items-center lg:items-start">
                 <h1 className="lg:text-8xl text-7xl font-semibold">

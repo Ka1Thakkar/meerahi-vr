@@ -120,7 +120,7 @@ const Ham = ({setIsHam} : HamProps) => {
                 <div>
                     <p className="text-3xl text-[#E4E6C3] z-[99999] font-semibold">Our Raahs</p>
                     <div className=" list-none text-[#EAF0E4] text-2xl font-extralight flex flex-col items-center justify-center mt-2">
-                        <div role={'button'} onClick={() => onClick('/varasa')}>Vasara</div>
+                        <div role={'button'} onClick={() => onClick('/vasara')}>Vasara</div>
                         <div role={'button'} onClick={() => onClick('/soma')}>Soma</div>
                         <div role={'button'} onClick={() => onClick('/vritti')}>Vritti</div>
                     </div>

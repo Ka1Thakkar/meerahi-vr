@@ -58,6 +58,17 @@ function ContactForm({api} : ContactFormProps) {
             className='w-full h-12 rounded-full bg-gray-100 outline-none text-black px-5'
             />
         </div>
+        <div className='pb-5'>
+            <p>
+                Individual/ Organisation
+            </p>
+            <input
+            id="email"
+            type="text" 
+            name="Indivial/Organisation"
+            className='w-full h-12 rounded-full bg-gray-100 outline-none text-black px-5'
+            />
+        </div>
         <div>
             <ValidationError 
             prefix="Email" 

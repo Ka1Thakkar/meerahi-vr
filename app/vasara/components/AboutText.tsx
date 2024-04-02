@@ -1,6 +1,6 @@
 const Text = () => {
     return (
-        <div id="vasaraText" className="lg:px-40 py-24 px-10">
+        <div id="vasaraText" className="2xl:px-40 sm:px-20 py-24 px-10">
             <h1 className="lg:text-8xl text-7xl font-semibold">
                 Discover the Quiet Within
             </h1>

@@ -4,7 +4,7 @@ import ProductDetailsMockup from '@/public/Mockups/ProductDetails.png'
 
 const Journey = () => {
     return (
-        <div className="lg:px-40 px-10 py-24 flex flex-col gap-10">
+        <div className="2xl:px-40 sm:px-20 px-10 py-24 flex flex-col gap-10">
             <h1 className="lg:text-8xl text-6xl font-semibold">Your Inner Rhythm</h1>
             <p className="lg:text-4xl text-2xl font-extralight">A tailoured Therapeutic sleeping partner.</p>
             <div className="flex gap-10 items-center justify-center flex-col lg:flex-row">
