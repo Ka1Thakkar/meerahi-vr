@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent, useEffect } from 'react'
 import { arc, pie } from 'd3-shape'
 
 const radius = 45
@@ -27,24 +27,28 @@ class AnimatedDonut extends PureComponent {
       clearInterval(this.interval)
     }
 
-    window.requestAnimationFrame(() => {
-      this.setState(
-        ({ pathLengths }) =>
-          pathLengths.some(offset => offset.current > offset.end)
-            ? {
-                pathLengths: pathLengths.map(
-                  (offset, i) =>
-                    offset.current > offset.end &&
-                      (i === 0 ||
-                        pathLengths[i - 1].current <= pathLengths[i - 1].end)
-                      ? Object.assign({}, offset, {
-                          current: offset.current - speed
-                        })
-                      : offset
-                )
-              }
-            : this.state
-      )
+    
+    useEffect(() => {
+      window.requestAnimationFrame(() => {
+        this.setState(
+          ({ pathLengths }) =>
+            pathLengths.some(offset => offset.current > offset.end)
+              ? {
+                  pathLengths: pathLengths.map(
+                    (offset, i) =>
+                      offset.current > offset.end &&
+                        (i === 0 ||
+                          pathLengths[i - 1].current <= pathLengths[i - 1].end)
+                        ? Object.assign({}, offset, {
+                            current: offset.current - speed
+                          })
+                        : offset
+                  )
+                }
+              : this.state
+        )
+      })
+
     })
 
     return (
