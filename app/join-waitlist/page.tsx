@@ -39,7 +39,7 @@ const Home = () => {
                 <div className="flex flex-col lg:flex-row justify-center gap-20">
                     <div className="lg:w-6/12">
                         <p className="font-light text-xl mt-5">
-                            For individuals, Meerahi offers gentle guidance towards a calmer mind and restful sleep, nurturing a sense of peace within. We also provide tools that empower you to navigate daily challenges and cultivate focused clarity. Organizations can utilize Meerahi's VR simulations to enhance soft skills, promote safety awareness, and cultivate employee well-being, ultimately fostering thriving workplaces and empowered teams. Together, we strive to cultivate a world where inner peace and mindful growth pave the way for a future blooming with well-being. Shorten this to maintain at least five lines
+                            For individuals, Meerahi offers gentle guidance towards a calmer mind and restful sleep, nurturing a sense of peace within. We also provide tools that empower you to navigate daily challenges and cultivate focused clarity. Organizations can utilize Meerahi's VR simulations to enhance soft skills, promote safety awareness, and cultivate employee well-being, ultimately fostering thriving workplaces and empowered teams. Together, we strive to cultivate a world where inner peace and mindful growth pave the way for a future blooming with well-being.
                         </p>
                         <div className="flex mt-10 gap-7 text-[#686868] text-3xl items-center">
                             <Link href="https://www.instagram.com/meerahi_vr?igsh=cDk1YXJ6NGVhNjgw" target="_blank">
