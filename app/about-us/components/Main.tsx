@@ -57,7 +57,7 @@ const Main = () => {
             </div>
             <div className="w-full mt-20">
                 <h1 className={cn(" lg:text-6xl text-4xl text-center lg:text-left font-medium text-[#5BB483]", decorativeFont.className)}>
-                Simplifying Mental Care
+                Simplifying Mental Well-being
                 </h1>
             </div>
         </div>
