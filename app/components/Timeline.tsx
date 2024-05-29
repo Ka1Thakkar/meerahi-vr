@@ -117,8 +117,8 @@ const timelineEvents = [
         description : "Spring whispered its arrival, and with it, a yearning to share Meerahi's promise with the world. Launching our website in March felt like a deep, cleansing breath – a moment of calm confidence, unveiling the world we were building."
     },
     {
-        date : 'April 2024',
+        date : 'June 2024',
         event : 'Expected roll out of our first product- Vasara',
-        description : "And then came April, a vibrant tapestry woven with possibilities. The release of Vasara, our first step on this meaningful journey, marked a new dawn. From that December spark to the hope-filled horizon of April, Meerahi's story is one of purpose, milestones, and a collective belief in the incredible path ahead. Here's to the calming embrace of a future filled with well-being!"
+        description : "And then came June, a vibrant tapestry woven with possibilities. The release of Vasara, our first step on this meaningful journey, marked a new dawn. From that December spark to the hope-filled horizon of April, Meerahi's story is one of purpose, milestones, and a collective belief in the incredible path ahead. Here's to the calming embrace of a future filled with well-being!"
     },
 ]
